@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-image: url(/assets/img/Pixel\ Show\ _\ Abasteça\ com\ Ideias!.gif);
+    color: #000;
+}
+
+#escolha{
+    width: 60%;
+    height: 38vw;
+    opacity: 1;
+    backdrop-filter: blur(.2vw);
+}
+
+#escolha h1, p{
+    text-align: center;
+}
+
+#escolha h1{
+    margin-top: 3vw;
+}
+
+#escolha p{
+    margin-top: 1vw;
+    font-weight: 700;
+}
+
+.buttons{
+    width: 50%;
+    margin: auto;
+    display: grid;
+    gap: 1.5vw;
+    margin-top: 3vw;
+}
+
+.buttons button{
+    margin: auto;
+    padding: .5vw .8vw;
+    font-size: 2vw;
+    border-radius: 1vw;
+    background: #C2F2E9;
+}
+
+a{
+    text-decoration: none;
+}
+
+.blue{
+    color: #3084F2;
+    border: 2px solid #3084F2;
+}
+
+.a-blue{
+    color: #3084F2;
+}
+
+.purple{
+    color: #705CF2;
+    border: 2px solid #705CF2;
+}
+
+.a-purple{
+    color: #705CF2;
+}
